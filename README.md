@@ -24,13 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![](./screenshot.jpg)
+<div align="center">
+  <img src="preview/preview-desktop.jpeg" alt="Desktop view" width=""/>
+</div>
 
 ### Links
 
 - Solution URL: [GitHub Pages](https://maluwhoo.github.io/Frontend-Mentor-Product-Preview-Card/)
-- Live Site URL: [Frontend Mentor]()
+- Live Site URL: [Frontend Mentor](https://maluwhoo.github.io/Frontend-Mentor-Column-Preview-Card/)
 
 ## My process
 
