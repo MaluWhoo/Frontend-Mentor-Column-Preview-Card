@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Pages](https://maluwhoo.github.io/Frontend-Mentor-Product-Preview-Card/)
-- Live Site URL: [Frontend Mentor](https://maluwhoo.github.io/Frontend-Mentor-Column-Preview-Card/)
+- Solution URL: [GitHub Repository](https://github.com/MaluWhoo/Frontend-Mentor-Column-Preview-Card)
+- Live Site URL: [GitHub Pages](https://maluwhoo.github.io/Frontend-Mentor-Column-Preview-Card/)
 
 ## My process
 
