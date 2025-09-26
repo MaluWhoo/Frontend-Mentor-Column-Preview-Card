@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--Lexend-Deca);
+    font-weight: 400;
+}
+
+:root {
+    /* COLORS */
+    --Gold-500: hsl(31, 77%, 52%);
+    --Cyan-800: hsl(184, 100%, 22%);
+    --Green-950: hsl(179, 100%, 13%);
+
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Gray-100: hsl(0, 0%, 95%);
+
+    /* FONTS */
+    --Lexend-Deca: "Lexend Deca", sans-serif;
+    --Big-Shoulders-Display: "Big Shoulders", sans-serif;
+
+    /* BODY */
+    --Font-size: 15px
+}
+
+body {
+    background-color: var(--Gray-100);
+}
+
+main {  
+    color: var(--Transparent-white);
+
+    border-radius: 12px;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h2 {
+    font-family: var(--Big-Shoulders-Display);
+    font-size: 2.5rem;
+    margin: 0rem 0rem 0rem 2rem;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+main p {
+    margin: 0rem 1rem 1rem 2rem;
+    line-height: 1.5; /* Espaçamento entre as linhas */
+}
+
+.main-box {
+    display: flex;
+    width: 100%;
+    max-width: 900px; /* controla até onde ela pode crescer */
+}
+
+.sedan {
+    background-color: var(--Gold-500);
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.suv {
+    background-color: var(--Cyan-800);
+}
+
+.luxuary {
+    background-color: var(--Green-950);
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+img {
+    width: 30%;
+    margin: 2rem 0rem 0rem 2rem;
+}
+
+
+/* BUTTONS */
+
+button {
+    border-radius: 2rem;
+    border: 2px solid white;
+    background-color: white;
+    padding: 15px;
+    cursor: pointer;
+
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    margin: 2rem;
+}
+
+.sedan-btn {
+    color: var(--Gold-500);
+}
+
+.suv-btn {
+    color: var(--Cyan-800);
+}
+
+.luxuary-btn {
+    color: var(--Green-950);
+}
+
+
+button:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.sedan-btn:hover {
+    background-color: var(--Gold-500);
+    color: white;
+}
+
+.suv-btn:hover {
+    background-color: var(--Cyan-800);
+    color: white;
+}
+
+.luxuary-btn:hover {
+    background-color: var(--Green-950);
+    color: white;
+}
+
+.attribution { 
+    font-size: 11px; 
+    padding: 4px;
+    text-align: center; 
+    color: rgba(0, 0, 0, 0.493);
+}
+.attribution a { 
+    color: hsla(228, 68%, 54%, 0.815); 
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 768px){
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-box {
+        display: flex;
+        flex-direction: column;
+        width: 90%;;
+        margin: 5rem 2rem;
+    }
+
+    main p {
+        margin: 0rem 2rem 1rem 2rem;
+    }
+
+    .sedan {
+        border-radius: 1rem 1rem 0rem 0rem ;
+    }
+    
+    .luxuary {
+        border-radius: 0rem 0rem 1rem 1rem;
+    }
+
+    button {
+        margin: 0rem 1rem 1rem 2rem;
+    }
+}
